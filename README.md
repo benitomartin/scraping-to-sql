@@ -1,4 +1,4 @@
-# Web Scraping to PDF
+# Justicio Web Scraping to SQL
 
 Justicio is a Question/Answering Assistant that generates answers from user questions about the official state gazette of Spain: Boletín Oficial del Estado (BOE).
 
