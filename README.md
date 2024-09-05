@@ -7,7 +7,7 @@
 Justicio is a Question/Answering Assistant that generates answers from user questions about the official state gazette of Spain: Boletín Oficial del Estado (BOE).
 
 
-At this moment we are running a user-free service: [Website](https://justicio.es/) and [Repository](https://github.com/bukosabino/justicio)
+At this moment we are running a user-free service: [Website](https://justicio.es/v2/acerca) and [Repository](https://github.com/bukosabino/justicio)
 
 All BOE articles are embedded in vectors and stored in a vector database. When a question is asked, the question is embedded in the same latent space and the most relevant text is retrieved from the vector database by performing a query using the embedded question. The retrieved pieces of text are then sent to the LLM to construct an answer.
 
